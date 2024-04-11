@@ -1,0 +1,98 @@
+.about {
+    background-image: url('../../assets/imgs/Rectangle 262.png');
+    background-size: 100% 100%;
+    background-position: 12% 90%;
+    background-repeat: no-repeat;
+}
+
+
+.title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 89.5px;
+    color: #FFFFFF;
+}
+
+.aboutContent {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+    .w1 {
+        width: 450px !important;
+    }
+    .w2 {
+        width: 400px !important;
+    }
+}
+
+.layer {
+    background-image: url('../../assets/imgs/Vector 8.png');
+    background-size: 65% 100%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.btnAbout, .btnAbout:hover ,.btnAbout:active {
+    background-color: #EEC04B !important;
+    color: #515151 !important;
+}
+
+
+@media (max-width: 992px) {
+    .w100 {
+        width: 100% !important;
+    }
+
+    .aboutContent {
+        font-size: 17px;
+    }
+
+    .ms0 {
+        margin-left: 0 !important;
+    }
+
+    .title {
+        font-size: 58px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .p2 {
+        padding: 0.5rem !important;
+    }
+    .p3 {
+        padding: 1rem !important;
+    }
+    .p4 {
+        padding: 2.5rem !important;
+    }
+    .title {
+        font-size: 53px;
+    }
+    .aboutContent {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .p2 {
+        padding: 0.5rem !important;
+    }
+    .p3 {
+        padding: 0.8rem !important;
+    }
+    .p4 {
+        padding: 2.5rem !important;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .aboutContent {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,237 @@
+
+.home {
+    font-family: "Poppins", sans-serif;
+    background-image: url('../../assets/imgs/Vector 7.png');
+    background-size: 69% 97%;
+    background-position: -30px 0px;
+    background-repeat: no-repeat;
+}
+
+.trashHauling {
+    width: 83px;
+    height: 59px;
+}
+
+.roundRock {
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 71px;
+    color: #6D91EE;
+    margin: 0;
+}
+
+.trushSpan {
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24.88px;
+    letter-spacing: 0.6em;
+    color: #6D91EE;
+}
+
+.trashContent {
+    margin-top: 90px;
+}
+
+.btnExpert, .btnExpert:hover {
+    width: 167px;
+    height: 50px;
+    background-color: #6D91EE;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.loremText , .loremSpan {
+    font-size: 96px;
+    line-height: 89.5px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.loremText {
+    font-weight: 100;
+}
+
+.loremSpan {
+    display: block;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.loremParagraph {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.5px;
+    text-align: center;
+    width: 552px;
+    color:#4F4F4F;
+}
+
+@media (max-width: 1200px) {
+    .home {
+        background-size: 73% 97%;
+    }
+    .trashHauling {
+        width: 78px;
+        height: 54px;
+    }
+    .roundRock {
+        font-size: 50px;
+    }
+    
+    .trushSpan {
+        font-size: 19px;
+    }
+    .btnExpert, .btnExpert:hover {
+        width: 160px;
+        height: 43px;
+        border-radius: 20px;
+        font-size: 22px;
+    line-height: 30px;
+    }
+    .loremText , .loremSpan {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        background-size: 80% 97%;
+    }
+    .trashHauling {
+        width: 68px;
+        height: 46px;
+    }
+    .roundRock {
+        font-size: 42px;
+    }
+    
+    .trushSpan {
+        font-size: 16px;
+    }
+    .btnExpert, .btnExpert:hover {
+        width: 155px;
+        height: 38px;
+        border-radius: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .loremText , .loremSpan {
+        font-size: 65px;
+    }
+    .loremParagraph {
+        font-size: 16px;
+        line-height: 24.5px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        background-size: 85% 97%;
+    }
+    .trashHauling {
+        width: 60px;
+        height: 38px;
+    }
+    .roundRock {
+        font-size: 34px;
+    }
+    
+    .trushSpan {
+        font-size: 13px;
+    }
+    .btnExpert, .btnExpert:hover {
+        width: 150px;
+        height: 33px;
+        border-radius: 20px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .loremText , .loremSpan {
+        font-size: 50px;
+        line-height: 85.5px;
+    }
+    .loremParagraph {
+        font-size: 15px;
+        line-height: 22.5px;
+        width: 400px;
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 576px) {
+    .home {
+        background-size: 95% 97%;
+    }
+    .trashHauling {
+        width: 55px;
+        height: 33px;
+        margin-left: 10px;
+    }
+    .roundRock {
+        font-size: 30px;
+    }
+    
+    .trushSpan {
+        font-size: 11px;
+    }
+    .loremText , .loremSpan {
+        font-size: 35px;
+    }
+    .loremParagraph {
+        font-size: 12px;
+        line-height: 22.5px;
+        width: 270px;
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 390px) {
+    .home {
+        background-size: 95% 100%;
+    }
+    .trashHauling {
+        width: 55px;
+        height: 33px;
+        margin-left: 10px;
+    }
+    .roundRock {
+        font-size: 24px;
+    }
+    
+    .trushSpan {
+        font-size: 10px;
+        letter-spacing: 0.5em;
+    }
+
+    .trashContent {
+        margin-top: 0px;
+    }
+
+    .btnExpert, .btnExpert:hover {
+        margin-top: 8%;
+        width: 145px;
+        height: 33px;
+        line-height: 20px;
+    }
+
+    .loremText , .loremSpan {
+        font-size: 28px;
+        margin-bottom: 0;
+        line-height: 70.5px;
+    }
+    .loremParagraph {
+        font-size: 10px;
+        line-height: 20.5px;
+        width: 200px;
+        margin-left: 8%;
+    }
+}
+
